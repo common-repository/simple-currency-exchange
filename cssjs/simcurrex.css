@@ -1,0 +1,56 @@
+/**
+ * Filename:     simcurrex.css
+ * Date:         2011-03-14
+ * Copyright:    2011, Vjekoslav Nikolic
+ * Author:       Vjekoslav Nikolic (vjeko@web-stranice.net)
+ * Description:  CSS file
+ * License:      GPLv2
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ */
+
+div#SimCurrEx label {
+	padding: 0.5em 0 0 0;
+	display: block;
+}
+div#SimCurrEx #SimCurrEx_btn {
+	margin-top: 1em;
+}
+
+input#SimCurrEx_amount {
+	width:93%;
+	border:1px solid #ADADAD;
+	padding:2px 5px 2px 5px;
+	font-size: 1em;
+}
+
+input#SimCurrEx_convResult {
+	width:93%;
+	border:1px solid #ADADAD;
+	padding:2px 5px 2px 5px;
+	font-size: 1em;
+}
+
+select#SimCurrEx_curr_from, select#SimCurrEx_curr_to {
+	width:99%;
+	border:1px solid #ADADAD;
+	padding:2px;
+	font-size: 1em;
+}
+
+select#SimCurrEx_curr_from option, select#SimCurrEx_curr_to option { 
+	padding-left:4px; 
+	font-size: 1em;
+}
+
+div#SimCurrEx .SimCurrEx_result {
+	font-weight:bold;
+	color:#017546;
+}
+
+div#SimCurrEx .SimCurrEx_error {
+	font-weight:bold;
+	color:#B91919;
+}
